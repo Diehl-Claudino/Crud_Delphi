@@ -1,0 +1,11 @@
+object dmDados: TdmDados
+  OldCreateOrder = False
+  Left = 2277
+  Top = 120
+  Height = 259
+  Width = 477
+  object bdCon: TADOConnection
+    Left = 72
+    Top = 24
+  end
+end

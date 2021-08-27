@@ -1,0 +1,13 @@
+program Project1;
+
+uses
+  Forms,
+  Cadastro_Delphi in '..\..\IdeaProjects\Delphi\Cadastro_Delphi.pas' {CadastroDelphi7};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(TCadastroDelphi7, CadastroDelphi7);
+  Application.Run;
+end.
